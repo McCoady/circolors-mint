@@ -1,0 +1,86 @@
+.WalletCheck {
+    text-align: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+.check_main {
+    padding: 0rem 3rem;
+}
+
+.btn-area {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 0;
+}
+
+.btn {
+    height: 5rem;
+    width: 10rem;
+    border-radius: 1rem 0.5rem;
+    border-color: #FDC00A;
+    color: #FDC00A;
+    background-color: #333;
+    font-size: 2rem;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.btn:hover {
+    border-radius: 0.5rem 1rem;
+    font-size: 2.1rem;
+    border-width: .4rem;
+    transition: 1s;
+}
+
+.btn_err {
+    color: #FDC00A;
+    font-size: 1.5rem;
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+.rules {
+    padding: 1rem;
+}
+
+.rules_title {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+
+
+.rules_content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 5rem;
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
+
+.sig_msg {
+    display: block;
+}
+
+.sig_input {
+    background-color: #333;
+    height: 2rem;
+    width: 300px;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    border-color: #FDC00A;
+    color: #FDC00A;
+    border-radius: 5px;
+}

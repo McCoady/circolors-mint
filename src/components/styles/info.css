@@ -1,0 +1,19 @@
+.container {
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
+
+.info_head {
+    font-size: 2rem;
+}
+
+.info_content {
+    font-size: 1.4rem;
+}

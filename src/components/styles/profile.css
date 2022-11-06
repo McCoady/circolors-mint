@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+.connected {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.connected_address {
+    font-size: 1.5rem;
+}
+
+.connected_provider {
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+
+.connect {
+    display: flex;
+    justify-content: center;
+}
+
+.connect_btn {
+    height: 3rem;
+    width: 8rem;
+    border-radius: 0.75rem 1.5rem;
+    margin: 1rem;
+    border-color: #FDC00A;
+    color: #FDC00A;
+    background-color: #333;
+    font-size: 1rem;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.connect_btn:hover {
+    border-radius: 1.5rem 0.75rem;
+    font-size: 1.05rem;
+    border-width: .3rem;
+    transition: 1s;
+}
