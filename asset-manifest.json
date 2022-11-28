@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/wank-site/static/css/main.873806af.css",
+    "main.js": "/wank-site/static/js/main.e6770140.js",
+    "static/js/654.3ec29670.chunk.js": "/wank-site/static/js/654.3ec29670.chunk.js",
+    "static/js/563.ff7995c7.chunk.js": "/wank-site/static/js/563.ff7995c7.chunk.js",
+    "static/js/787.e04c78db.chunk.js": "/wank-site/static/js/787.e04c78db.chunk.js",
+    "static/js/419.bb5537ed.chunk.js": "/wank-site/static/js/419.bb5537ed.chunk.js",
+    "static/js/163.51df5462.chunk.js": "/wank-site/static/js/163.51df5462.chunk.js",
+    "index.html": "/wank-site/index.html",
+    "main.873806af.css.map": "/wank-site/static/css/main.873806af.css.map",
+    "main.e6770140.js.map": "/wank-site/static/js/main.e6770140.js.map",
+    "787.e04c78db.chunk.js.map": "/wank-site/static/js/787.e04c78db.chunk.js.map",
+    "419.bb5537ed.chunk.js.map": "/wank-site/static/js/419.bb5537ed.chunk.js.map",
+    "163.51df5462.chunk.js.map": "/wank-site/static/js/163.51df5462.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.873806af.css",
+    "static/js/main.e6770140.js"
+  ]
+}
