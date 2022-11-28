@@ -8,7 +8,7 @@ import {
 import "./styles/profile.css";
 
 export default function Profile() {
-    const { address, connector, isConnected } = useAccount()
+    const { address, isConnected } = useAccount()
     const { data: ensName } = useEnsName({ address })
     const { connect, connectors, error, isLoading, pendingConnector } =
         useConnect()

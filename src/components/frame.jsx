@@ -18,7 +18,7 @@ export default function Frame(props) {
     })
 
     const scrawlIframe = getHTML.data ? (
-        <iframe width="400" height="570" src={getHTML.data}></iframe>
+        <iframe title="latest mint" width="400" height="570" src={getHTML.data}></iframe>
     ) : (
         <h2>Image loading</h2>
     );

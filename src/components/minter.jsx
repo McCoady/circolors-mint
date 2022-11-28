@@ -1,4 +1,4 @@
-import { usePrepareContractWrite, useContractRead, useContractWrite, useAccount, useContract } from "wagmi"
+import { usePrepareContractWrite, useContractWrite, useAccount } from "wagmi"
 import { MerkleTree } from 'merkletreejs'
 import { Buffer } from "buffer";
 import { ethers } from "ethers";
