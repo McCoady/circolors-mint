@@ -5,7 +5,6 @@ export default function App() {
   return (
     <div className="App">
       <Header />
-      <Navbar />
       <SketchComp />
       <div className='boxed'>
         <Info />

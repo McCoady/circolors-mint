@@ -1,4 +1,4 @@
-import { Header, Footer, Navbar, Minter, SketchComp, Frame } from "../components";
+import { Header, Footer, Info, Minter, SketchComp, Frame } from "../components";
 import { useContractRead } from "wagmi";
 import "./styles/mint.css";
 
@@ -36,16 +36,20 @@ export default function Mint() {
     return (
         <div className="Mint">
             <Header />
-            <Navbar />
             <SketchComp />
             <div className="boxed">
                 {now < Number(mintDeadline.data) ? <Minter address={contractAddress} contractAbi={contractAbi} /> : <div>MINT CLOSED</div>}
                 {now > date ? <div>General Sale Now Open!</div> : <div>General Sale opens {time} for 24 hours</div>}
                 <div> {Number(totSupply.data)} / 420 minted</div>
-                <div>Mint Price: 0.0256eth (Circolors Presale) 0.0365eth (Allowlist/General Sale)</div>
+                <div>Mint Prices: </div>
+                <div>Circolors Presale: 0.0256eth</div>
+                <div>Allowlist/General Sale: 0.0365eth</div>
                 <div>Latest Mint: #{totSupply.data - 1}</div>
             </div>
             <Frame address={contractAddress} totalSupply={totSupply.data} contractAbi={contractAbi} />
+            <div className="boxed">
+                <Info />
+            </div>
             <Footer />
         </div>
     )

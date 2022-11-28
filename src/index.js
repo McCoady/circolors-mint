@@ -2,7 +2,7 @@ import './index.css';
 import App from './App';
 
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import { createRoot } from "react-dom/client";
 import { Mint } from "./routes";
 import { Profile } from "./components";
@@ -56,12 +56,7 @@ const root = createRoot(rootElement);
 root.render(
   <WagmiConfig client={client}>
     <Profile />
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<App />} />
-        <Route path="/mint" element={<Mint />} />
-      </Routes>
-    </BrowserRouter>
+    <Mint />
   </WagmiConfig>
 );
 // If you want to start measuring performance in your app, pass a function
