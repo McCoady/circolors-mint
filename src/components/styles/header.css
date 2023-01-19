@@ -2,5 +2,29 @@
     font-size: 6rem;
     display: flex;
     justify-content: center;
-    margin-bottom: 0;
+    margin-bottom: 1rem;
+    margin-top: 0;
+    color: black;
+}
+
+.header {
+    background-color: white;
+    margin: 0rem 12rem;
+}
+
+
+@media (max-width: 850px) {
+    .title {
+        font-size: 5rem;
+    }
+
+    .header {
+        margin: 0rem 0rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .title {
+        font-size: 4rem;
+    }
 }

@@ -4,5 +4,3 @@ export { default as Navbar } from "./navbar";
 export { default as Profile } from "./profile";
 export { default as Info } from "./info";
 export { default as Minter } from "./minter";
-export { default as SketchComp } from "./sketchComp";
-export { default as Frame } from "./frame";

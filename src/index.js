@@ -1,11 +1,8 @@
 import './index.css';
-import App from './App';
-
 import reportWebVitals from './reportWebVitals';
-import { HashRouter, Routes, Route } from 'react-router-dom';
+
 import { createRoot } from "react-dom/client";
 import { Mint } from "./routes";
-import { Profile } from "./components";
 
 import {
   WagmiConfig,
@@ -25,8 +22,8 @@ import { WalletConnectConnector } from 'wagmi/connectors/walletConnect'
 // Configure chains & providers with the Alchemy provider.
 // Two popular providers are Alchemy (alchemy.com) and Infura (infura.io)
 const { chains, provider, webSocketProvider } = configureChains(
-  [chain.mainnet], [
-  alchemyProvider({ apiKey: 'dpBSY9089mmKKCoh2n5YJtz6Tgikd2Ip' }),
+  [chain.goerli], [
+  alchemyProvider({ apiKey: process.env.ALCEHMY_KEY }),
   publicProvider(),
 ])
 
@@ -55,7 +52,6 @@ const rootElement = document.getElementById("root");
 const root = createRoot(rootElement);
 root.render(
   <WagmiConfig client={client}>
-    <Profile />
     <Mint />
   </WagmiConfig>
 );

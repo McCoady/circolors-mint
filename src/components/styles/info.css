@@ -1,8 +1,8 @@
 .container {
-    margin: 1rem;
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
+    padding-right: 50%;
+    margin-top: 0.5rem;
 }
 
 .break {
@@ -16,4 +16,16 @@
 
 .info_content {
     font-size: 1.4rem;
+}
+
+@media (max-width: 850px) {
+    .container {
+        padding-right: 30%;
+    }
+}
+
+@media (max-width: 500px) {
+    .container {
+        padding-right: 10%;
+    }
 }

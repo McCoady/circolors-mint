@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
 .connected {
-    padding: 1rem;
     display: flex;
-    justify-content: center;
     align-items: baseline;
 }
 
 .connected_address {
     font-size: 1.5rem;
+    margin-right: 1rem;
+    margin-left: 0.5rem;
 }
 
 .connected_provider {
@@ -18,24 +18,20 @@
 
 .connect {
     display: flex;
-    justify-content: center;
 }
 
 .connect_btn {
     height: 3.2rem;
     width: 8.6rem;
-    border-radius: 0.75rem 1.5rem;
-    margin: 1rem;
-    border-color: #FDC00A;
-    color: #FDC00A;
-    background-color: transparent;
-    font-size: 1.2rem;
-    font-family: 'Shadows Into Light', cursive;
+    margin-bottom: 1rem;
+    border-color: #FFF;
+    color: #FFF;
+    background-color: black;
+    font-size: 1.3rem;
+    font-family: 'VT323', monospace;
 }
 
 .connect_btn:hover {
-    border-radius: 1.5rem 0.75rem;
-    font-size: 1.05rem;
-    border-width: .3rem;
-    transition: 1s;
+    color: #000;
+    background-color: #FFF;
 }

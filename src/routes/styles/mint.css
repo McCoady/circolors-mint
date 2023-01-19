@@ -1,4 +1,28 @@
 .Mint {
-    text-align: center;
+    text-align: left;
     font-size: 1.5rem;
+    margin-top: 2rem;
+}
+
+.boxed {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.svg_output {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 0.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 0.5rem;
+
+}
+
+@media (max-width: 390px) {
+    .svg_output {
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
